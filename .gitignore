@@ -1,0 +1,17 @@
+# Ignore the backup files created by solidworks
+*~*
+
+# Apple craps
+.DS_Store
+
+# Eagle craps
+*.b#*
+*.s#*
+*.d#*
+*.exe
+*.zip
+*.l#*
+*.scr
+*.gpi
+*.dri
+*.lck
