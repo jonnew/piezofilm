@@ -1890,6 +1890,26 @@ distributor RS Components</description>
 <wire x1="-116.84" y1="73.66" x2="-116.84" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-116.84" y="68.58"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="+IN"/>
+<wire x1="-68.58" y1="-5.08" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-5.08" x2="-83.82" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="PE" pin="GND"/>
+<wire x1="-83.82" y1="-5.08" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-83.82" y="-5.08"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-106.68" y1="-5.08" x2="-109.22" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="-7.62" x2="-106.68" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-7.62" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-106.68" y="-5.08"/>
+<junction x="-106.68" y="-7.62"/>
+<wire x1="-106.68" y1="-7.62" x2="-106.68" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-12.7" x2="-124.46" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="-12.7" x2="-124.46" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="-124.46" y1="-5.08" x2="-129.54" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+15V0" class="0">
 <segment>
@@ -1995,28 +2015,6 @@ distributor RS Components</description>
 <wire x1="-106.68" y1="5.08" x2="-106.68" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN-" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="+IN"/>
-<wire x1="-68.58" y1="-5.08" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="-5.08" x2="-83.82" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="SUPPLY5" gate="PE" pin="GND"/>
-<wire x1="-83.82" y1="-5.08" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-83.82" y="-5.08"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-106.68" y1="-5.08" x2="-109.22" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="-7.62" x2="-106.68" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-7.62" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-106.68" y="-5.08"/>
-<junction x="-106.68" y="-7.62"/>
-<wire x1="-106.68" y1="-7.62" x2="-106.68" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-12.7" x2="-124.46" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="-12.7" x2="-124.46" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="-124.46" y1="-5.08" x2="-129.54" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R3" gate="R" pin="2"/>
@@ -2061,6 +2059,16 @@ distributor RS Components</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,15.24,2.54,U3G$3,V+,+15V0,,,"/>
+<approved hash="104,1,15.24,-12.7,U3G$3,V-,-15V0,,,"/>
+<approved hash="104,1,-63.5,68.58,U1,-,GND,,,"/>
+<approved hash="104,1,-63.5,78.74,U1,+,BAT+,,,"/>
+<approved hash="104,1,-63.5,48.26,U2,-,BAT-,,,"/>
+<approved hash="104,1,-63.5,58.42,U2,+,GND,,,"/>
+<approved hash="113,1,-109.971,-4.78536,J1,,,,,"/>
+<approved hash="113,1,29.21,71.4417,D1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

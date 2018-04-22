@@ -167,11 +167,10 @@
 <text x="6.5" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" align="center">OFF</text>
 <text x="11" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" align="center">ON</text>
 <text x="18" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" rot="R180" align="center">V-</text>
-<text x="23" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" align="center">G</text>
 <text x="26" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" align="center">V+</text>
 <text x="30.5" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" align="center">OUT</text>
 <text x="34" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" rot="R180" align="center">G</text>
-<text x="20.5" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" rot="R180" align="center">G</text>
+<text x="21.8" y="-0.5" size="1.4224" layer="21" font="vector" ratio="16" rot="R180" align="center">GND</text>
 <text x="3.9" y="22.2" size="1.4224" layer="21" font="vector" ratio="16" rot="R90" align="center">PIEZOFILM AMPLIFIER</text>
 <wire x1="2.2" y1="10.7" x2="5.4" y2="10.7" width="0.2" layer="21"/>
 <wire x1="5.4" y1="10.7" x2="5.4" y2="33.4" width="0.2" layer="21"/>
@@ -179,17 +178,17 @@
 <wire x1="2.2" y1="33.4" x2="2.2" y2="10.7" width="0.2" layer="21"/>
 <text x="13.9" y="29.3" size="1.4224" layer="21" font="vector" ratio="16" align="center">INPUT-A</text>
 <text x="25" y="29.3" size="1.4224" layer="21" font="vector" ratio="16" align="center">INPUT-B</text>
-<text x="11.7" y="27.7" size="1.4224" layer="21" font="vector" ratio="16" align="center">+</text>
-<text x="16.3" y="27.7" size="1.4224" layer="21" font="vector" ratio="16" align="center">-</text>
-<text x="28.9" y="26.5" size="1.4224" layer="21" font="vector" ratio="16" align="center">+</text>
-<text x="28.7" y="23.8" size="1.4224" layer="21" font="vector" ratio="16" rot="R90" align="center">-</text>
+<text x="16.5" y="27.7" size="1.4224" layer="21" font="vector" ratio="16" align="center">+</text>
+<text x="11.4" y="27.7" size="1.4224" layer="21" font="vector" ratio="16" align="center">-</text>
+<text x="28.9" y="23.4" size="1.4224" layer="21" font="vector" ratio="16" align="center">+</text>
+<text x="28.7" y="26.3" size="1.4224" layer="21" font="vector" ratio="16" rot="R90" align="center">-</text>
 <text x="32.5" y="23.2" size="1.4224" layer="21" font="vector" ratio="16" rot="R90" align="center">JPN, MIT, 2018
 CERN OHL v1.2</text>
 <wire x1="30" y1="15.5" x2="35" y2="15.5" width="0.2" layer="21"/>
 <wire x1="35" y1="15.5" x2="35" y2="31" width="0.2" layer="21"/>
 <wire x1="35" y1="31" x2="30" y2="31" width="0.2" layer="21"/>
 <wire x1="30" y1="31" x2="30" y2="15.5" width="0.2" layer="21"/>
-<wire x1="22" y1="13.5" x2="19.5" y2="14" width="0.2" layer="21"/>
+<wire x1="22.1" y1="12.9" x2="19.6" y2="13.8" width="0.2" layer="21"/>
 <hole x="33.1" y="36.6" drill="3.5"/>
 <hole x="2.9" y="36.6" drill="3.5"/>
 <hole x="8.6" y="19.7" drill="3.5"/>
@@ -648,16 +647,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="21.913" y="14.863" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
 </element>
 <element name="C4" library="jonnew" package="0603" value="0.1uF" x="15.3" y="16.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.503" y="18.003" size="1" layer="25" font="vector" ratio="16" rot="R270" align="center-right"/>
-<attribute name="VALUE" x="14.597" y="17.903" size="1" layer="27" font="vector" ratio="16" rot="R90" align="center-left"/>
+<attribute name="NAME" x="13.503" y="18.103" size="1" layer="25" font="vector" ratio="16" rot="R270" align="center-right"/>
+<attribute name="VALUE" x="14.497" y="18.103" size="1" layer="27" font="vector" ratio="16" rot="R90" align="center-left"/>
 </element>
 <element name="C1" library="jonnew" package="0603" value="68nF" x="15.2" y="10.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.503" y="8.197" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
-<attribute name="VALUE" x="13.697" y="8.803" size="1" layer="27" font="vector" ratio="16" rot="R90" align="center-left"/>
+<attribute name="NAME" x="14.503" y="8.097" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
+<attribute name="VALUE" x="13.597" y="8.703" size="1" layer="27" font="vector" ratio="16" rot="R90" align="center-left"/>
 </element>
 <element name="C2" library="jonnew" package="0603" value="68nF" x="14.7" y="13.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.297" y="13.803" size="1" layer="25" font="vector" ratio="16" align="center-right"/>
-<attribute name="VALUE" x="12.297" y="12.697" size="1" layer="27" font="vector" ratio="16" rot="R180" align="center-left"/>
+<attribute name="NAME" x="12.497" y="13.603" size="1" layer="25" font="vector" ratio="16" align="center-right"/>
+<attribute name="VALUE" x="12.497" y="12.497" size="1" layer="27" font="vector" ratio="16" rot="R180" align="center-left"/>
 </element>
 <element name="CF" library="jonnew" package="0603" value="10pF" x="19.1" y="21.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.703" y="23.103" size="1" layer="25" font="vector" ratio="16" rot="R270" align="center-right"/>
@@ -675,39 +674,39 @@ design rules under a new name.</description>
 <attribute name="DK" value="PxxxxHTR-ND" x="16.85" y="19.99" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MN" value="Panasonic" x="16.85" y="19.99" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERJ-3EKFxxxxV" x="16.85" y="19.99" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.053" y="22.707" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
+<attribute name="NAME" x="15.053" y="22.607" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
 <attribute name="VALUE" x="15.053" y="21.513" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
 </element>
 <element name="R2" library="jonnew" package="0603" value="10k" x="13.3" y="16.1" smashed="yes" rot="R270">
 <attribute name="DK" value="PxxxxHTR-ND" x="13.3" y="16.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MN" value="Panasonic" x="13.3" y="16.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ERJ-3EKFxxxxV" x="13.3" y="16.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="9.903" y="14.903" size="1" layer="25" font="vector" ratio="16" rot="R270" align="center-right"/>
+<attribute name="NAME" x="10.303" y="14.703" size="1" layer="25" font="vector" ratio="16" rot="R270" align="center-right"/>
 <attribute name="VALUE" x="11.597" y="14.703" size="1" layer="27" font="vector" ratio="16" rot="R90" align="center-left"/>
 </element>
 <element name="RA" library="jonnew" package="0603" value="1k" x="18.3" y="11.5" smashed="yes" rot="R180">
 <attribute name="DK" value="PxxxxHTR-ND" x="18.3" y="11.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MN" value="Panasonic" x="18.3" y="11.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ERJ-3EKFxxxxV" x="18.3" y="11.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.3" y="12.4" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
-<attribute name="VALUE" x="20.3" y="11.3" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
+<attribute name="NAME" x="20.2" y="12" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
+<attribute name="VALUE" x="20.2" y="10.8" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
 </element>
 <element name="RB" library="jonnew" package="0603" value="1k" x="18.3" y="9.5" smashed="yes">
 <attribute name="DK" value="PxxxxHTR-ND" x="18.3" y="9.5" size="1.778" layer="27" display="off"/>
 <attribute name="MN" value="Panasonic" x="18.3" y="9.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERJ-3EKFxxxxV" x="18.3" y="9.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.903" y="7.897" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
-<attribute name="VALUE" x="20.603" y="8.403" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
+<attribute name="NAME" x="16.703" y="7.897" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
+<attribute name="VALUE" x="18.903" y="7.903" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
 </element>
 <element name="R3" library="jonnew" package="0603" value="10k" x="27.81" y="9.51" smashed="yes">
 <attribute name="DK" value="PxxxxHTR-ND" x="27.81" y="9.51" size="1.778" layer="27" display="off"/>
 <attribute name="MN" value="Panasonic" x="27.81" y="9.51" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ERJ-3EKFxxxxV" x="27.81" y="9.51" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.113" y="11.007" size="1" layer="25" font="vector" ratio="16" rot="R180" align="center-right"/>
-<attribute name="VALUE" x="26.813" y="7.813" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
+<attribute name="VALUE" x="26.813" y="8.013" size="1" layer="27" font="vector" ratio="16" align="center-left"/>
 </element>
 <element name="U3" library="jonnew" package="SOP65P490X110-8N" value="AD8512" x="17.96" y="15.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="22.5" y="13" size="1" layer="25" font="vector" ratio="16" rot="SR0"/>
+<attribute name="NAME" x="22.5" y="12.9" size="1" layer="25" font="vector" ratio="16" rot="SR0"/>
 <attribute name="VALUE" x="22.5" y="11.8" size="1.016" layer="27" font="vector" ratio="18" rot="SR0"/>
 </element>
 <element name="U1" library="jonnew" package="968_9V-BATTERY" value="968" x="17.5" y="9.5" smashed="yes" rot="MR180">
@@ -792,6 +791,25 @@ design rules under a new name.</description>
 <wire x1="15.3" y1="14.5" x2="15.3" y2="15.2364" width="0.2" layer="1"/>
 <wire x1="18.1" y1="8.4" x2="19.1636" y2="9.4636" width="0.2" layer="1"/>
 <wire x1="19.1636" y1="9.4636" x2="19.1636" y2="9.5" width="0.2" layer="1"/>
+<contactref element="U3" pad="3"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J1" pad="1"/>
+<contactref element="J6" pad="P$2"/>
+<wire x1="10.09" y1="25" x2="12.63" y2="25" width="0.2" layer="1"/>
+<wire x1="12.63" y1="25" x2="12.63" y2="25.93" width="0.2" layer="1"/>
+<wire x1="14.5" y1="27.8" x2="12.63" y2="25.93" width="0.2" layer="1"/>
+<wire x1="12.63" y1="25" x2="12.63" y2="24.78125" width="0.2" layer="1"/>
+<wire x1="16.8" y1="20.61125" x2="12.63" y2="24.78125" width="0.2" layer="1"/>
+<wire x1="17.6298" y1="18.9702" x2="17.6298" y2="18.1784" width="0.2" layer="1"/>
+<wire x1="17.6298" y1="18.9702" x2="17.3958" y2="19.2042" width="0.2" layer="1"/>
+<wire x1="17.3958" y1="19.2042" x2="17.0958" y2="19.2042" width="0.2" layer="1"/>
+<wire x1="17.0958" y1="19.2042" x2="16.8" y2="19.5" width="0.2" layer="1"/>
+<wire x1="16.8" y1="19.5" x2="16.8" y2="20.61125" width="0.2" layer="1"/>
+<wire x1="24.9" y1="26.24" x2="23.34" y2="27.8" width="0.2" layer="1"/>
+<wire x1="23.34" y1="27.8" x2="14.5" y2="27.8" width="0.2" layer="1"/>
+<via x="17.6" y="16.5" extent="1-16" drill="0.35"/>
+<wire x1="17.6298" y1="18.1784" x2="17.6298" y2="16.5298" width="0.2032" layer="1"/>
+<wire x1="17.6298" y1="16.5298" x2="17.6" y2="16.5" width="0.2032" layer="1"/>
 </signal>
 <signal name="+15V0">
 <contactref element="U3" pad="8"/>
@@ -902,24 +920,6 @@ design rules under a new name.</description>
 <wire x1="21.9636" y1="20" x2="21.9636" y2="19.3" width="0.2" layer="1"/>
 <wire x1="21.9636" y1="19.3" x2="20.9636" y2="18.3" width="0.2" layer="1"/>
 <wire x1="20.9636" y1="18.3" x2="20.3" y2="18.3" width="0.2" layer="1"/>
-</signal>
-<signal name="IN-">
-<contactref element="U3" pad="3"/>
-<contactref element="J1" pad="2"/>
-<contactref element="J1" pad="1"/>
-<contactref element="J6" pad="P$2"/>
-<wire x1="10.09" y1="25" x2="12.63" y2="25" width="0.2" layer="1"/>
-<wire x1="12.63" y1="25" x2="12.63" y2="25.93" width="0.2" layer="1"/>
-<wire x1="14.5" y1="27.8" x2="12.63" y2="25.93" width="0.2" layer="1"/>
-<wire x1="12.63" y1="25" x2="12.63" y2="24.78125" width="0.2" layer="1"/>
-<wire x1="16.8" y1="20.61125" x2="12.63" y2="24.78125" width="0.2" layer="1"/>
-<wire x1="17.6298" y1="18.1784" x2="17.6298" y2="18.9702" width="0.2" layer="1"/>
-<wire x1="17.6298" y1="18.9702" x2="17.3958" y2="19.2042" width="0.2" layer="1"/>
-<wire x1="17.3958" y1="19.2042" x2="17.0958" y2="19.2042" width="0.2" layer="1"/>
-<wire x1="17.0958" y1="19.2042" x2="16.8" y2="19.5" width="0.2" layer="1"/>
-<wire x1="16.8" y1="19.5" x2="16.8" y2="20.61125" width="0.2" layer="1"/>
-<wire x1="24.9" y1="26.24" x2="23.34" y2="27.8" width="0.2" layer="1"/>
-<wire x1="23.34" y1="27.8" x2="14.5" y2="27.8" width="0.2" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R3" pad="2"/>
